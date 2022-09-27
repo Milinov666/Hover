@@ -1,0 +1,46 @@
+.cont {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+.photo14 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px 15px 0 0;
+    transition: 1s;
+}
+
+.photo14:hover {
+    border-radius: 1000px;
+}
+
+.buto {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+
+}
+
+.boto {
+    height: 25px;
+    width: 200px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.boto:hover {
+    background-color: rgb(69, 69, 69);
+}
+
+.buto: {
+    color: gray;
+}
